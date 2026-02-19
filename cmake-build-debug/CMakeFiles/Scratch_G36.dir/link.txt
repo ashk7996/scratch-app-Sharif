@@ -1,0 +1,3 @@
+"C:\Program Files\JetBrains\CLion 2022.2\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\Scratch_G36.dir/objects.a
+"D:\SUT\term 1\programing\MinGW\bin\ar.exe" qc CMakeFiles\Scratch_G36.dir/objects.a @CMakeFiles\Scratch_G36.dir\objects1.rsp
+"D:\SUT\term 1\programing\MinGW\bin\g++.exe" -g -Wl,--whole-archive CMakeFiles\Scratch_G36.dir/objects.a -Wl,--no-whole-archive -o Scratch_G36.exe -Wl,--out-implib,libScratch_G36.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\Scratch_G36.dir\linklibs.rsp

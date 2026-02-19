@@ -1,0 +1,19 @@
+# Build folders
+cmake-build-debug/
+build/
+
+# CMake files
+CMakeCache.txt
+CMakeFiles/
+
+# Executables
+*.exe
+*.out
+
+# Object files
+*.o
+*.obj
+
+# IDE files
+.idea/
+.vscode/

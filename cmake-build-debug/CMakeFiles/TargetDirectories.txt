@@ -1,0 +1,3 @@
+D:/SUT/term 1/programing/PROJECT/Scratch (1)/Scratch/cmake-build-debug/CMakeFiles/Scratch_G36.dir
+D:/SUT/term 1/programing/PROJECT/Scratch (1)/Scratch/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/SUT/term 1/programing/PROJECT/Scratch (1)/Scratch/cmake-build-debug/CMakeFiles/rebuild_cache.dir
