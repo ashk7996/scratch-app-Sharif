@@ -129,12 +129,12 @@ set(CMAKE_MAKEFILE_DEPENDS
   "C:/Program Files/JetBrains/CLion 2025.2.5/bin/cmake/win/x64/share/cmake-4.0/Modules/Platform/Windows-windres.cmake"
   "C:/Program Files/JetBrains/CLion 2025.2.5/bin/cmake/win/x64/share/cmake-4.0/Modules/Platform/Windows.cmake"
   "C:/Program Files/JetBrains/CLion 2025.2.5/bin/cmake/win/x64/share/cmake-4.0/Modules/Platform/WindowsPaths.cmake"
-  "E:/programming/scratch-app-winter-1404/CMakeLists.txt"
+  "E:/programming/scratch-app-Sharif/CMakeLists.txt"
   "CMakeFiles/4.0.2/CMakeCCompiler.cmake"
   "CMakeFiles/4.0.2/CMakeCXXCompiler.cmake"
   "CMakeFiles/4.0.2/CMakeRCCompiler.cmake"
   "CMakeFiles/4.0.2/CMakeSystem.cmake"
-  "E:/programming/scratch-app-winter-1404/cmake/modules/FindSDL2.cmake"
+  "E:/programming/scratch-app-Sharif/cmake/modules/FindSDL2.cmake"
   )
 
 # The corresponding makefile is:

@@ -3,6 +3,6 @@
 
 #include "../Common/common.h"
 
-void renderScrollableMenu(int x, int y, int width, int height);
+// void renderScrollableMenu(int x, int y, int width, int height);
 
 #endif //PROJECT_NAME_COSTUMESPANEL_H

@@ -10,5 +10,10 @@ void renderSpiritStats();
 
 void updateShowButton(Button & btn);
 
+void updateDebugButton(Button & btn);
+
+void renderRunAndDebugButtons();
+
+bool loadSpiritTexture(SDL_Texture * spiritTexture);
 
 #endif //PROJECT_NAME_SPIRITPREVIEW_H

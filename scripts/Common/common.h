@@ -2,7 +2,6 @@
 #define PROJECT_NAME_COMMON_H
 
 #include <bits/stdc++.h>
-#include <ctime>
 #include <SDL.h>
 #include <SDL_ttf.h>
 #include <SDL_image.h>
@@ -12,38 +11,44 @@ using namespace std;
 
 extern map<string, SDL_Color> defualtTheme;
 
+
 struct Mouse {
-    int x, y, scrolloffset;
+    int x, y, scrolloffsetCodeMenu, scrolloffsetBlocksPlayGround;
     bool isMouseDown = false;
     bool isClicked = false;
 };
 
 struct Spirit {
     string spiritName = "spirit-1";
-    double spiritX = 0, spiritY = 0;
-    int direction = 0
+    int spiritX = 0, spiritY = 0, direction = 0
             /* varies from 0 to 360, 0 -> faced to the right, 90 -> faced upward and so on ... */ , size = 100;
     bool isShow = true;
-    vector<SDL_Texture*> costumes;
-    int costumeCount = static_cast<int>(costumes.size()); /* the amount of its costumes */
-    int currentCostume = 0; /* the index which the costume is stored at in the vector */
+    SDL_Texture* texture = nullptr;
 };
 
+struct App;
+
+enum BlockType {
+    START,
+    MOTION_SETX,
+    MOTION_SETY
+};
 
 struct Block {
     string blockMode, blockName;
     SDL_Color bgColor;
-
-    void renderBlock(string blockMode);
+    BlockType type;
 };
 
 struct App {
     int DW, DH;
-    bool isRunning = true;
+    bool isRunning = true , isInDebug = false , isExecuting = false;
     map<string, SDL_Color> theme = defualtTheme;
-    string selectedMode = "Code";
+    string selectedMode = "Code", selectedBlockTypeInCodeMenu = "Motion";
     Mouse mouse;
     Spirit spirit;
+    vector<Block> executeList;
+    // int executeIndex = 0;
 };
 
 extern App scratchApp;
@@ -57,9 +62,9 @@ struct Button {
 
 extern SDL_Window *m_window;
 extern SDL_Renderer *m_renderer;
-extern TTF_Font *font;
+extern TTF_Font *font , *fontSmall;
 
-bool prepPhase(int fontSize);
+bool prepPhase(int fontSize, int fontSizeSmall);
 
 void endPhase();
 
@@ -69,8 +74,14 @@ bool isPointerInElement(SDL_Rect rect, int mx, int my);
 
 void updateMouse(bool isMouseDown);
 
-void updateScrolloffset(int viewportHeight, int contentHeight, SDL_Event &event);
+void updateScrolloffsetCodeMenu(int viewportHeight, int contentHeight, SDL_Event &event);
 
 void isClicked(const SDL_Event &event);
+
+void updateScrolloffsetBlockPlayGround(int viewportHeight, int contentHeight, SDL_Event &event);
+
+void removeLastBlockFromExecuteList();
+
+bool loadSpiritTexture(Spirit spirit);
 
 #endif //PROJECT_NAME_COMMON_H

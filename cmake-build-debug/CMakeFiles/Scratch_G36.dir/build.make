@@ -52,10 +52,10 @@ RM = "C:\Program Files\JetBrains\CLion 2025.2.5\bin\cmake\win\x64\bin\cmake.exe"
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = E:\programming\scratch-app-winter-1404
+CMAKE_SOURCE_DIR = E:\programming\scratch-app-Sharif
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = E:\programming\scratch-app-winter-1404\cmake-build-debug
+CMAKE_BINARY_DIR = E:\programming\scratch-app-Sharif\cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/Scratch_G36.dir/depend.make
@@ -73,138 +73,138 @@ CMakeFiles/Scratch_G36.dir/codegen:
 
 CMakeFiles/Scratch_G36.dir/scripts/main.cpp.obj: CMakeFiles/Scratch_G36.dir/flags.make
 CMakeFiles/Scratch_G36.dir/scripts/main.cpp.obj: CMakeFiles/Scratch_G36.dir/includes_CXX.rsp
-CMakeFiles/Scratch_G36.dir/scripts/main.cpp.obj: E:/programming/scratch-app-winter-1404/scripts/main.cpp
+CMakeFiles/Scratch_G36.dir/scripts/main.cpp.obj: E:/programming/scratch-app-Sharif/scripts/main.cpp
 CMakeFiles/Scratch_G36.dir/scripts/main.cpp.obj: CMakeFiles/Scratch_G36.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\programming\scratch-app-winter-1404\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Scratch_G36.dir/scripts/main.cpp.obj"
-	C:\MinGW\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Scratch_G36.dir/scripts/main.cpp.obj -MF CMakeFiles\Scratch_G36.dir\scripts\main.cpp.obj.d -o CMakeFiles\Scratch_G36.dir\scripts\main.cpp.obj -c E:\programming\scratch-app-winter-1404\scripts\main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\programming\scratch-app-Sharif\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Scratch_G36.dir/scripts/main.cpp.obj"
+	C:\MinGW\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Scratch_G36.dir/scripts/main.cpp.obj -MF CMakeFiles\Scratch_G36.dir\scripts\main.cpp.obj.d -o CMakeFiles\Scratch_G36.dir\scripts\main.cpp.obj -c E:\programming\scratch-app-Sharif\scripts\main.cpp
 
 CMakeFiles/Scratch_G36.dir/scripts/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Scratch_G36.dir/scripts/main.cpp.i"
-	C:\MinGW\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E E:\programming\scratch-app-winter-1404\scripts\main.cpp > CMakeFiles\Scratch_G36.dir\scripts\main.cpp.i
+	C:\MinGW\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E E:\programming\scratch-app-Sharif\scripts\main.cpp > CMakeFiles\Scratch_G36.dir\scripts\main.cpp.i
 
 CMakeFiles/Scratch_G36.dir/scripts/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Scratch_G36.dir/scripts/main.cpp.s"
-	C:\MinGW\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S E:\programming\scratch-app-winter-1404\scripts\main.cpp -o CMakeFiles\Scratch_G36.dir\scripts\main.cpp.s
+	C:\MinGW\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S E:\programming\scratch-app-Sharif\scripts\main.cpp -o CMakeFiles\Scratch_G36.dir\scripts\main.cpp.s
 
 CMakeFiles/Scratch_G36.dir/scripts/common/common.cpp.obj: CMakeFiles/Scratch_G36.dir/flags.make
 CMakeFiles/Scratch_G36.dir/scripts/common/common.cpp.obj: CMakeFiles/Scratch_G36.dir/includes_CXX.rsp
-CMakeFiles/Scratch_G36.dir/scripts/common/common.cpp.obj: E:/programming/scratch-app-winter-1404/scripts/common/common.cpp
+CMakeFiles/Scratch_G36.dir/scripts/common/common.cpp.obj: E:/programming/scratch-app-Sharif/scripts/common/common.cpp
 CMakeFiles/Scratch_G36.dir/scripts/common/common.cpp.obj: CMakeFiles/Scratch_G36.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\programming\scratch-app-winter-1404\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Scratch_G36.dir/scripts/common/common.cpp.obj"
-	C:\MinGW\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Scratch_G36.dir/scripts/common/common.cpp.obj -MF CMakeFiles\Scratch_G36.dir\scripts\common\common.cpp.obj.d -o CMakeFiles\Scratch_G36.dir\scripts\common\common.cpp.obj -c E:\programming\scratch-app-winter-1404\scripts\common\common.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\programming\scratch-app-Sharif\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Scratch_G36.dir/scripts/common/common.cpp.obj"
+	C:\MinGW\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Scratch_G36.dir/scripts/common/common.cpp.obj -MF CMakeFiles\Scratch_G36.dir\scripts\common\common.cpp.obj.d -o CMakeFiles\Scratch_G36.dir\scripts\common\common.cpp.obj -c E:\programming\scratch-app-Sharif\scripts\common\common.cpp
 
 CMakeFiles/Scratch_G36.dir/scripts/common/common.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Scratch_G36.dir/scripts/common/common.cpp.i"
-	C:\MinGW\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E E:\programming\scratch-app-winter-1404\scripts\common\common.cpp > CMakeFiles\Scratch_G36.dir\scripts\common\common.cpp.i
+	C:\MinGW\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E E:\programming\scratch-app-Sharif\scripts\common\common.cpp > CMakeFiles\Scratch_G36.dir\scripts\common\common.cpp.i
 
 CMakeFiles/Scratch_G36.dir/scripts/common/common.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Scratch_G36.dir/scripts/common/common.cpp.s"
-	C:\MinGW\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S E:\programming\scratch-app-winter-1404\scripts\common\common.cpp -o CMakeFiles\Scratch_G36.dir\scripts\common\common.cpp.s
+	C:\MinGW\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S E:\programming\scratch-app-Sharif\scripts\common\common.cpp -o CMakeFiles\Scratch_G36.dir\scripts\common\common.cpp.s
 
 CMakeFiles/Scratch_G36.dir/scripts/Ui/uiFuncs.cpp.obj: CMakeFiles/Scratch_G36.dir/flags.make
 CMakeFiles/Scratch_G36.dir/scripts/Ui/uiFuncs.cpp.obj: CMakeFiles/Scratch_G36.dir/includes_CXX.rsp
-CMakeFiles/Scratch_G36.dir/scripts/Ui/uiFuncs.cpp.obj: E:/programming/scratch-app-winter-1404/scripts/Ui/uiFuncs.cpp
+CMakeFiles/Scratch_G36.dir/scripts/Ui/uiFuncs.cpp.obj: E:/programming/scratch-app-Sharif/scripts/Ui/uiFuncs.cpp
 CMakeFiles/Scratch_G36.dir/scripts/Ui/uiFuncs.cpp.obj: CMakeFiles/Scratch_G36.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\programming\scratch-app-winter-1404\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Scratch_G36.dir/scripts/Ui/uiFuncs.cpp.obj"
-	C:\MinGW\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Scratch_G36.dir/scripts/Ui/uiFuncs.cpp.obj -MF CMakeFiles\Scratch_G36.dir\scripts\Ui\uiFuncs.cpp.obj.d -o CMakeFiles\Scratch_G36.dir\scripts\Ui\uiFuncs.cpp.obj -c E:\programming\scratch-app-winter-1404\scripts\Ui\uiFuncs.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\programming\scratch-app-Sharif\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Scratch_G36.dir/scripts/Ui/uiFuncs.cpp.obj"
+	C:\MinGW\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Scratch_G36.dir/scripts/Ui/uiFuncs.cpp.obj -MF CMakeFiles\Scratch_G36.dir\scripts\Ui\uiFuncs.cpp.obj.d -o CMakeFiles\Scratch_G36.dir\scripts\Ui\uiFuncs.cpp.obj -c E:\programming\scratch-app-Sharif\scripts\Ui\uiFuncs.cpp
 
 CMakeFiles/Scratch_G36.dir/scripts/Ui/uiFuncs.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Scratch_G36.dir/scripts/Ui/uiFuncs.cpp.i"
-	C:\MinGW\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E E:\programming\scratch-app-winter-1404\scripts\Ui\uiFuncs.cpp > CMakeFiles\Scratch_G36.dir\scripts\Ui\uiFuncs.cpp.i
+	C:\MinGW\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E E:\programming\scratch-app-Sharif\scripts\Ui\uiFuncs.cpp > CMakeFiles\Scratch_G36.dir\scripts\Ui\uiFuncs.cpp.i
 
 CMakeFiles/Scratch_G36.dir/scripts/Ui/uiFuncs.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Scratch_G36.dir/scripts/Ui/uiFuncs.cpp.s"
-	C:\MinGW\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S E:\programming\scratch-app-winter-1404\scripts\Ui\uiFuncs.cpp -o CMakeFiles\Scratch_G36.dir\scripts\Ui\uiFuncs.cpp.s
+	C:\MinGW\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S E:\programming\scratch-app-Sharif\scripts\Ui\uiFuncs.cpp -o CMakeFiles\Scratch_G36.dir\scripts\Ui\uiFuncs.cpp.s
 
 CMakeFiles/Scratch_G36.dir/scripts/Menu/menu.cpp.obj: CMakeFiles/Scratch_G36.dir/flags.make
 CMakeFiles/Scratch_G36.dir/scripts/Menu/menu.cpp.obj: CMakeFiles/Scratch_G36.dir/includes_CXX.rsp
-CMakeFiles/Scratch_G36.dir/scripts/Menu/menu.cpp.obj: E:/programming/scratch-app-winter-1404/scripts/Menu/menu.cpp
+CMakeFiles/Scratch_G36.dir/scripts/Menu/menu.cpp.obj: E:/programming/scratch-app-Sharif/scripts/Menu/menu.cpp
 CMakeFiles/Scratch_G36.dir/scripts/Menu/menu.cpp.obj: CMakeFiles/Scratch_G36.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\programming\scratch-app-winter-1404\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/Scratch_G36.dir/scripts/Menu/menu.cpp.obj"
-	C:\MinGW\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Scratch_G36.dir/scripts/Menu/menu.cpp.obj -MF CMakeFiles\Scratch_G36.dir\scripts\Menu\menu.cpp.obj.d -o CMakeFiles\Scratch_G36.dir\scripts\Menu\menu.cpp.obj -c E:\programming\scratch-app-winter-1404\scripts\Menu\menu.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\programming\scratch-app-Sharif\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/Scratch_G36.dir/scripts/Menu/menu.cpp.obj"
+	C:\MinGW\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Scratch_G36.dir/scripts/Menu/menu.cpp.obj -MF CMakeFiles\Scratch_G36.dir\scripts\Menu\menu.cpp.obj.d -o CMakeFiles\Scratch_G36.dir\scripts\Menu\menu.cpp.obj -c E:\programming\scratch-app-Sharif\scripts\Menu\menu.cpp
 
 CMakeFiles/Scratch_G36.dir/scripts/Menu/menu.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Scratch_G36.dir/scripts/Menu/menu.cpp.i"
-	C:\MinGW\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E E:\programming\scratch-app-winter-1404\scripts\Menu\menu.cpp > CMakeFiles\Scratch_G36.dir\scripts\Menu\menu.cpp.i
+	C:\MinGW\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E E:\programming\scratch-app-Sharif\scripts\Menu\menu.cpp > CMakeFiles\Scratch_G36.dir\scripts\Menu\menu.cpp.i
 
 CMakeFiles/Scratch_G36.dir/scripts/Menu/menu.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Scratch_G36.dir/scripts/Menu/menu.cpp.s"
-	C:\MinGW\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S E:\programming\scratch-app-winter-1404\scripts\Menu\menu.cpp -o CMakeFiles\Scratch_G36.dir\scripts\Menu\menu.cpp.s
+	C:\MinGW\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S E:\programming\scratch-app-Sharif\scripts\Menu\menu.cpp -o CMakeFiles\Scratch_G36.dir\scripts\Menu\menu.cpp.s
 
 CMakeFiles/Scratch_G36.dir/scripts/LeftPannel/ModeSelector/ModeSelector.cpp.obj: CMakeFiles/Scratch_G36.dir/flags.make
 CMakeFiles/Scratch_G36.dir/scripts/LeftPannel/ModeSelector/ModeSelector.cpp.obj: CMakeFiles/Scratch_G36.dir/includes_CXX.rsp
-CMakeFiles/Scratch_G36.dir/scripts/LeftPannel/ModeSelector/ModeSelector.cpp.obj: E:/programming/scratch-app-winter-1404/scripts/LeftPannel/ModeSelector/ModeSelector.cpp
+CMakeFiles/Scratch_G36.dir/scripts/LeftPannel/ModeSelector/ModeSelector.cpp.obj: E:/programming/scratch-app-Sharif/scripts/LeftPannel/ModeSelector/ModeSelector.cpp
 CMakeFiles/Scratch_G36.dir/scripts/LeftPannel/ModeSelector/ModeSelector.cpp.obj: CMakeFiles/Scratch_G36.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\programming\scratch-app-winter-1404\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/Scratch_G36.dir/scripts/LeftPannel/ModeSelector/ModeSelector.cpp.obj"
-	C:\MinGW\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Scratch_G36.dir/scripts/LeftPannel/ModeSelector/ModeSelector.cpp.obj -MF CMakeFiles\Scratch_G36.dir\scripts\LeftPannel\ModeSelector\ModeSelector.cpp.obj.d -o CMakeFiles\Scratch_G36.dir\scripts\LeftPannel\ModeSelector\ModeSelector.cpp.obj -c E:\programming\scratch-app-winter-1404\scripts\LeftPannel\ModeSelector\ModeSelector.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\programming\scratch-app-Sharif\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/Scratch_G36.dir/scripts/LeftPannel/ModeSelector/ModeSelector.cpp.obj"
+	C:\MinGW\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Scratch_G36.dir/scripts/LeftPannel/ModeSelector/ModeSelector.cpp.obj -MF CMakeFiles\Scratch_G36.dir\scripts\LeftPannel\ModeSelector\ModeSelector.cpp.obj.d -o CMakeFiles\Scratch_G36.dir\scripts\LeftPannel\ModeSelector\ModeSelector.cpp.obj -c E:\programming\scratch-app-Sharif\scripts\LeftPannel\ModeSelector\ModeSelector.cpp
 
 CMakeFiles/Scratch_G36.dir/scripts/LeftPannel/ModeSelector/ModeSelector.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Scratch_G36.dir/scripts/LeftPannel/ModeSelector/ModeSelector.cpp.i"
-	C:\MinGW\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E E:\programming\scratch-app-winter-1404\scripts\LeftPannel\ModeSelector\ModeSelector.cpp > CMakeFiles\Scratch_G36.dir\scripts\LeftPannel\ModeSelector\ModeSelector.cpp.i
+	C:\MinGW\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E E:\programming\scratch-app-Sharif\scripts\LeftPannel\ModeSelector\ModeSelector.cpp > CMakeFiles\Scratch_G36.dir\scripts\LeftPannel\ModeSelector\ModeSelector.cpp.i
 
 CMakeFiles/Scratch_G36.dir/scripts/LeftPannel/ModeSelector/ModeSelector.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Scratch_G36.dir/scripts/LeftPannel/ModeSelector/ModeSelector.cpp.s"
-	C:\MinGW\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S E:\programming\scratch-app-winter-1404\scripts\LeftPannel\ModeSelector\ModeSelector.cpp -o CMakeFiles\Scratch_G36.dir\scripts\LeftPannel\ModeSelector\ModeSelector.cpp.s
+	C:\MinGW\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S E:\programming\scratch-app-Sharif\scripts\LeftPannel\ModeSelector\ModeSelector.cpp -o CMakeFiles\Scratch_G36.dir\scripts\LeftPannel\ModeSelector\ModeSelector.cpp.s
 
 CMakeFiles/Scratch_G36.dir/scripts/SpiritFunctions/spiritFunctions.cpp.obj: CMakeFiles/Scratch_G36.dir/flags.make
 CMakeFiles/Scratch_G36.dir/scripts/SpiritFunctions/spiritFunctions.cpp.obj: CMakeFiles/Scratch_G36.dir/includes_CXX.rsp
-CMakeFiles/Scratch_G36.dir/scripts/SpiritFunctions/spiritFunctions.cpp.obj: E:/programming/scratch-app-winter-1404/scripts/SpiritFunctions/spiritFunctions.cpp
+CMakeFiles/Scratch_G36.dir/scripts/SpiritFunctions/spiritFunctions.cpp.obj: E:/programming/scratch-app-Sharif/scripts/SpiritFunctions/spiritFunctions.cpp
 CMakeFiles/Scratch_G36.dir/scripts/SpiritFunctions/spiritFunctions.cpp.obj: CMakeFiles/Scratch_G36.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\programming\scratch-app-winter-1404\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/Scratch_G36.dir/scripts/SpiritFunctions/spiritFunctions.cpp.obj"
-	C:\MinGW\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Scratch_G36.dir/scripts/SpiritFunctions/spiritFunctions.cpp.obj -MF CMakeFiles\Scratch_G36.dir\scripts\SpiritFunctions\spiritFunctions.cpp.obj.d -o CMakeFiles\Scratch_G36.dir\scripts\SpiritFunctions\spiritFunctions.cpp.obj -c E:\programming\scratch-app-winter-1404\scripts\SpiritFunctions\spiritFunctions.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\programming\scratch-app-Sharif\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/Scratch_G36.dir/scripts/SpiritFunctions/spiritFunctions.cpp.obj"
+	C:\MinGW\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Scratch_G36.dir/scripts/SpiritFunctions/spiritFunctions.cpp.obj -MF CMakeFiles\Scratch_G36.dir\scripts\SpiritFunctions\spiritFunctions.cpp.obj.d -o CMakeFiles\Scratch_G36.dir\scripts\SpiritFunctions\spiritFunctions.cpp.obj -c E:\programming\scratch-app-Sharif\scripts\SpiritFunctions\spiritFunctions.cpp
 
 CMakeFiles/Scratch_G36.dir/scripts/SpiritFunctions/spiritFunctions.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Scratch_G36.dir/scripts/SpiritFunctions/spiritFunctions.cpp.i"
-	C:\MinGW\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E E:\programming\scratch-app-winter-1404\scripts\SpiritFunctions\spiritFunctions.cpp > CMakeFiles\Scratch_G36.dir\scripts\SpiritFunctions\spiritFunctions.cpp.i
+	C:\MinGW\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E E:\programming\scratch-app-Sharif\scripts\SpiritFunctions\spiritFunctions.cpp > CMakeFiles\Scratch_G36.dir\scripts\SpiritFunctions\spiritFunctions.cpp.i
 
 CMakeFiles/Scratch_G36.dir/scripts/SpiritFunctions/spiritFunctions.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Scratch_G36.dir/scripts/SpiritFunctions/spiritFunctions.cpp.s"
-	C:\MinGW\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S E:\programming\scratch-app-winter-1404\scripts\SpiritFunctions\spiritFunctions.cpp -o CMakeFiles\Scratch_G36.dir\scripts\SpiritFunctions\spiritFunctions.cpp.s
+	C:\MinGW\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S E:\programming\scratch-app-Sharif\scripts\SpiritFunctions\spiritFunctions.cpp -o CMakeFiles\Scratch_G36.dir\scripts\SpiritFunctions\spiritFunctions.cpp.s
 
 CMakeFiles/Scratch_G36.dir/scripts/SpiritPreview/spiritPreview.cpp.obj: CMakeFiles/Scratch_G36.dir/flags.make
 CMakeFiles/Scratch_G36.dir/scripts/SpiritPreview/spiritPreview.cpp.obj: CMakeFiles/Scratch_G36.dir/includes_CXX.rsp
-CMakeFiles/Scratch_G36.dir/scripts/SpiritPreview/spiritPreview.cpp.obj: E:/programming/scratch-app-winter-1404/scripts/SpiritPreview/spiritPreview.cpp
+CMakeFiles/Scratch_G36.dir/scripts/SpiritPreview/spiritPreview.cpp.obj: E:/programming/scratch-app-Sharif/scripts/SpiritPreview/spiritPreview.cpp
 CMakeFiles/Scratch_G36.dir/scripts/SpiritPreview/spiritPreview.cpp.obj: CMakeFiles/Scratch_G36.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\programming\scratch-app-winter-1404\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/Scratch_G36.dir/scripts/SpiritPreview/spiritPreview.cpp.obj"
-	C:\MinGW\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Scratch_G36.dir/scripts/SpiritPreview/spiritPreview.cpp.obj -MF CMakeFiles\Scratch_G36.dir\scripts\SpiritPreview\spiritPreview.cpp.obj.d -o CMakeFiles\Scratch_G36.dir\scripts\SpiritPreview\spiritPreview.cpp.obj -c E:\programming\scratch-app-winter-1404\scripts\SpiritPreview\spiritPreview.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\programming\scratch-app-Sharif\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/Scratch_G36.dir/scripts/SpiritPreview/spiritPreview.cpp.obj"
+	C:\MinGW\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Scratch_G36.dir/scripts/SpiritPreview/spiritPreview.cpp.obj -MF CMakeFiles\Scratch_G36.dir\scripts\SpiritPreview\spiritPreview.cpp.obj.d -o CMakeFiles\Scratch_G36.dir\scripts\SpiritPreview\spiritPreview.cpp.obj -c E:\programming\scratch-app-Sharif\scripts\SpiritPreview\spiritPreview.cpp
 
 CMakeFiles/Scratch_G36.dir/scripts/SpiritPreview/spiritPreview.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Scratch_G36.dir/scripts/SpiritPreview/spiritPreview.cpp.i"
-	C:\MinGW\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E E:\programming\scratch-app-winter-1404\scripts\SpiritPreview\spiritPreview.cpp > CMakeFiles\Scratch_G36.dir\scripts\SpiritPreview\spiritPreview.cpp.i
+	C:\MinGW\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E E:\programming\scratch-app-Sharif\scripts\SpiritPreview\spiritPreview.cpp > CMakeFiles\Scratch_G36.dir\scripts\SpiritPreview\spiritPreview.cpp.i
 
 CMakeFiles/Scratch_G36.dir/scripts/SpiritPreview/spiritPreview.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Scratch_G36.dir/scripts/SpiritPreview/spiritPreview.cpp.s"
-	C:\MinGW\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S E:\programming\scratch-app-winter-1404\scripts\SpiritPreview\spiritPreview.cpp -o CMakeFiles\Scratch_G36.dir\scripts\SpiritPreview\spiritPreview.cpp.s
+	C:\MinGW\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S E:\programming\scratch-app-Sharif\scripts\SpiritPreview\spiritPreview.cpp -o CMakeFiles\Scratch_G36.dir\scripts\SpiritPreview\spiritPreview.cpp.s
 
 CMakeFiles/Scratch_G36.dir/scripts/CodePanel/CodePanel.cpp.obj: CMakeFiles/Scratch_G36.dir/flags.make
 CMakeFiles/Scratch_G36.dir/scripts/CodePanel/CodePanel.cpp.obj: CMakeFiles/Scratch_G36.dir/includes_CXX.rsp
-CMakeFiles/Scratch_G36.dir/scripts/CodePanel/CodePanel.cpp.obj: E:/programming/scratch-app-winter-1404/scripts/CodePanel/CodePanel.cpp
+CMakeFiles/Scratch_G36.dir/scripts/CodePanel/CodePanel.cpp.obj: E:/programming/scratch-app-Sharif/scripts/CodePanel/CodePanel.cpp
 CMakeFiles/Scratch_G36.dir/scripts/CodePanel/CodePanel.cpp.obj: CMakeFiles/Scratch_G36.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\programming\scratch-app-winter-1404\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/Scratch_G36.dir/scripts/CodePanel/CodePanel.cpp.obj"
-	C:\MinGW\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Scratch_G36.dir/scripts/CodePanel/CodePanel.cpp.obj -MF CMakeFiles\Scratch_G36.dir\scripts\CodePanel\CodePanel.cpp.obj.d -o CMakeFiles\Scratch_G36.dir\scripts\CodePanel\CodePanel.cpp.obj -c E:\programming\scratch-app-winter-1404\scripts\CodePanel\CodePanel.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\programming\scratch-app-Sharif\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/Scratch_G36.dir/scripts/CodePanel/CodePanel.cpp.obj"
+	C:\MinGW\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Scratch_G36.dir/scripts/CodePanel/CodePanel.cpp.obj -MF CMakeFiles\Scratch_G36.dir\scripts\CodePanel\CodePanel.cpp.obj.d -o CMakeFiles\Scratch_G36.dir\scripts\CodePanel\CodePanel.cpp.obj -c E:\programming\scratch-app-Sharif\scripts\CodePanel\CodePanel.cpp
 
 CMakeFiles/Scratch_G36.dir/scripts/CodePanel/CodePanel.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Scratch_G36.dir/scripts/CodePanel/CodePanel.cpp.i"
-	C:\MinGW\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E E:\programming\scratch-app-winter-1404\scripts\CodePanel\CodePanel.cpp > CMakeFiles\Scratch_G36.dir\scripts\CodePanel\CodePanel.cpp.i
+	C:\MinGW\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E E:\programming\scratch-app-Sharif\scripts\CodePanel\CodePanel.cpp > CMakeFiles\Scratch_G36.dir\scripts\CodePanel\CodePanel.cpp.i
 
 CMakeFiles/Scratch_G36.dir/scripts/CodePanel/CodePanel.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Scratch_G36.dir/scripts/CodePanel/CodePanel.cpp.s"
-	C:\MinGW\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S E:\programming\scratch-app-winter-1404\scripts\CodePanel\CodePanel.cpp -o CMakeFiles\Scratch_G36.dir\scripts\CodePanel\CodePanel.cpp.s
+	C:\MinGW\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S E:\programming\scratch-app-Sharif\scripts\CodePanel\CodePanel.cpp -o CMakeFiles\Scratch_G36.dir\scripts\CodePanel\CodePanel.cpp.s
 
 CMakeFiles/Scratch_G36.dir/scripts/CostumesPanel/CostumesPanel.cpp.obj: CMakeFiles/Scratch_G36.dir/flags.make
 CMakeFiles/Scratch_G36.dir/scripts/CostumesPanel/CostumesPanel.cpp.obj: CMakeFiles/Scratch_G36.dir/includes_CXX.rsp
-CMakeFiles/Scratch_G36.dir/scripts/CostumesPanel/CostumesPanel.cpp.obj: E:/programming/scratch-app-winter-1404/scripts/CostumesPanel/CostumesPanel.cpp
+CMakeFiles/Scratch_G36.dir/scripts/CostumesPanel/CostumesPanel.cpp.obj: E:/programming/scratch-app-Sharif/scripts/CostumesPanel/CostumesPanel.cpp
 CMakeFiles/Scratch_G36.dir/scripts/CostumesPanel/CostumesPanel.cpp.obj: CMakeFiles/Scratch_G36.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\programming\scratch-app-winter-1404\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/Scratch_G36.dir/scripts/CostumesPanel/CostumesPanel.cpp.obj"
-	C:\MinGW\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Scratch_G36.dir/scripts/CostumesPanel/CostumesPanel.cpp.obj -MF CMakeFiles\Scratch_G36.dir\scripts\CostumesPanel\CostumesPanel.cpp.obj.d -o CMakeFiles\Scratch_G36.dir\scripts\CostumesPanel\CostumesPanel.cpp.obj -c E:\programming\scratch-app-winter-1404\scripts\CostumesPanel\CostumesPanel.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\programming\scratch-app-Sharif\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/Scratch_G36.dir/scripts/CostumesPanel/CostumesPanel.cpp.obj"
+	C:\MinGW\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Scratch_G36.dir/scripts/CostumesPanel/CostumesPanel.cpp.obj -MF CMakeFiles\Scratch_G36.dir\scripts\CostumesPanel\CostumesPanel.cpp.obj.d -o CMakeFiles\Scratch_G36.dir\scripts\CostumesPanel\CostumesPanel.cpp.obj -c E:\programming\scratch-app-Sharif\scripts\CostumesPanel\CostumesPanel.cpp
 
 CMakeFiles/Scratch_G36.dir/scripts/CostumesPanel/CostumesPanel.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Scratch_G36.dir/scripts/CostumesPanel/CostumesPanel.cpp.i"
-	C:\MinGW\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E E:\programming\scratch-app-winter-1404\scripts\CostumesPanel\CostumesPanel.cpp > CMakeFiles\Scratch_G36.dir\scripts\CostumesPanel\CostumesPanel.cpp.i
+	C:\MinGW\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E E:\programming\scratch-app-Sharif\scripts\CostumesPanel\CostumesPanel.cpp > CMakeFiles\Scratch_G36.dir\scripts\CostumesPanel\CostumesPanel.cpp.i
 
 CMakeFiles/Scratch_G36.dir/scripts/CostumesPanel/CostumesPanel.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Scratch_G36.dir/scripts/CostumesPanel/CostumesPanel.cpp.s"
-	C:\MinGW\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S E:\programming\scratch-app-winter-1404\scripts\CostumesPanel\CostumesPanel.cpp -o CMakeFiles\Scratch_G36.dir\scripts\CostumesPanel\CostumesPanel.cpp.s
+	C:\MinGW\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S E:\programming\scratch-app-Sharif\scripts\CostumesPanel\CostumesPanel.cpp -o CMakeFiles\Scratch_G36.dir\scripts\CostumesPanel\CostumesPanel.cpp.s
 
 # Object files for target Scratch_G36
 Scratch_G36_OBJECTS = \
@@ -234,7 +234,7 @@ Scratch_G36.exe: CMakeFiles/Scratch_G36.dir/build.make
 Scratch_G36.exe: CMakeFiles/Scratch_G36.dir/linkLibs.rsp
 Scratch_G36.exe: CMakeFiles/Scratch_G36.dir/objects1.rsp
 Scratch_G36.exe: CMakeFiles/Scratch_G36.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=E:\programming\scratch-app-winter-1404\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Linking CXX executable Scratch_G36.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=E:\programming\scratch-app-Sharif\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Linking CXX executable Scratch_G36.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\Scratch_G36.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -246,6 +246,6 @@ CMakeFiles/Scratch_G36.dir/clean:
 .PHONY : CMakeFiles/Scratch_G36.dir/clean
 
 CMakeFiles/Scratch_G36.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" E:\programming\scratch-app-winter-1404 E:\programming\scratch-app-winter-1404 E:\programming\scratch-app-winter-1404\cmake-build-debug E:\programming\scratch-app-winter-1404\cmake-build-debug E:\programming\scratch-app-winter-1404\cmake-build-debug\CMakeFiles\Scratch_G36.dir\DependInfo.cmake "--color=$(COLOR)"
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" E:\programming\scratch-app-Sharif E:\programming\scratch-app-Sharif E:\programming\scratch-app-Sharif\cmake-build-debug E:\programming\scratch-app-Sharif\cmake-build-debug E:\programming\scratch-app-Sharif\cmake-build-debug\CMakeFiles\Scratch_G36.dir\DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/Scratch_G36.dir/depend
 
