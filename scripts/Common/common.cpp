@@ -21,7 +21,7 @@ bool prepPhase(int fontSize) {
     Uint32 WND_flags = SDL_WINDOW_SHOWN | /* SDL_WINDOW_FULLSCREEN_DESKTOP */ SDL_WINDOW_MAXIMIZED;
 
     if (SDL_Init(SDL_flags) < 0) return false;
-    if (SDL_CreateWindowAndRenderer(1920, 480, WND_flags, &m_window, &m_renderer) < 0) return false;
+    if (SDL_CreateWindowAndRenderer(1920, 1080, WND_flags, &m_window, &m_renderer) < 0) return false;
 
     if (TTF_Init() < 0) return false;
     font = TTF_OpenFont("../assets/NotoSans-Medium.ttf", fontSize);
@@ -29,9 +29,9 @@ bool prepPhase(int fontSize) {
 
     SDL_RaiseWindow(m_window);
 
-    SDL_DisplayMode DM;
-    SDL_GetCurrentDisplayMode(0, &DM);
-    scratchApp.DW = DM.w, scratchApp.DH = DM.h;
+    // SDL_DisplayMode DM;
+    // SDL_GetCurrentDisplayMode(0, &DM);
+    scratchApp.DW = 1920, scratchApp.DH = 1080;
 
     SDL_SetRenderDrawColor(m_renderer, scratchApp.theme["secondary"].r, scratchApp.theme["secondary"].g,
                            scratchApp.theme["secondary"].b, scratchApp.theme["secondary"].a);
