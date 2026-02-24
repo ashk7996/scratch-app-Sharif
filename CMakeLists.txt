@@ -4,24 +4,7 @@ project(Scratch_G36)
 set(CMAKE_CXX_STANDARD 14)
 
 # Must set the path to the main.cpp, for example: scripts/main.cpp if it is inside a folder
-add_executable(${PROJECT_NAME} scripts/main.cpp
-        scripts/common/common.h
-        scripts/common/common.cpp
-        scripts/Ui/uiFuncs.h
-        scripts/Ui/uiFuncs.cpp
-        scripts/Menu/Menu.h
-        scripts/Menu/menu.cpp
-        scripts/LeftPannel/ModeSelector/ModeSelector.h
-        scripts/LeftPannel/ModeSelector/ModeSelector.cpp
-        scripts/SpiritFunctions/spiritFunctions.h
-        scripts/SpiritFunctions/spiritFunctions.cpp
-        scripts/SpiritPreview/spiritPreview.h
-        scripts/SpiritPreview/spiritPreview.cpp
-        scripts/CodePanel/CodePanel.h
-        scripts/CodePanel/CodePanel.cpp
-        scripts/CostumesPanel/CostumesPanel.cpp
-        scripts/CostumesPanel/CostumesPanel.h
-)
+add_executable(${PROJECT_NAME} scripts/main.cpp)
 
 # --- SDL2 SETUP ---
 set(CMAKE_MODULE_PATH ${CMAKE_SOURCE_DIR}/cmake/modules)

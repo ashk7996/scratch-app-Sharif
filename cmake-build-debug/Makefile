@@ -47,19 +47,19 @@ cmake_force:
 SHELL = cmd.exe
 
 # The CMake executable.
-CMAKE_COMMAND = "C:\Program Files\JetBrains\CLion 2025.2.5\bin\cmake\win\x64\bin\cmake.exe"
+CMAKE_COMMAND = "C:\Users\zc\AppData\Local\Programs\CLion 2025.2\bin\cmake\win\x64\bin\cmake.exe"
 
 # The command to remove a file.
-RM = "C:\Program Files\JetBrains\CLion 2025.2.5\bin\cmake\win\x64\bin\cmake.exe" -E rm -f
+RM = "C:\Users\zc\AppData\Local\Programs\CLion 2025.2\bin\cmake\win\x64\bin\cmake.exe" -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = E:\programming\scratch-app-Sharif
+CMAKE_SOURCE_DIR = C:\Users\zc\CLionProjects\test12
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = E:\programming\scratch-app-Sharif\cmake-build-debug
+CMAKE_BINARY_DIR = C:\Users\zc\CLionProjects\test12\cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -67,7 +67,7 @@ CMAKE_BINARY_DIR = E:\programming\scratch-app-Sharif\cmake-build-debug
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --cyan "No interactive CMake dialog available..."
-	"C:\Program Files\JetBrains\CLion 2025.2.5\bin\cmake\win\x64\bin\cmake.exe" -E echo "No interactive CMake dialog available."
+	"C:\Users\zc\AppData\Local\Programs\CLion 2025.2\bin\cmake\win\x64\bin\cmake.exe" -E echo "No interactive CMake dialog available."
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -77,7 +77,7 @@ edit_cache/fast: edit_cache
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --cyan "Running CMake to regenerate build system..."
-	"C:\Program Files\JetBrains\CLion 2025.2.5\bin\cmake\win\x64\bin\cmake.exe" --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	"C:\Users\zc\AppData\Local\Programs\CLion 2025.2\bin\cmake\win\x64\bin\cmake.exe" --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -86,9 +86,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start E:\programming\scratch-app-Sharif\cmake-build-debug\CMakeFiles E:\programming\scratch-app-Sharif\cmake-build-debug\\CMakeFiles\progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\zc\CLionProjects\test12\cmake-build-debug\CMakeFiles C:\Users\zc\CLionProjects\test12\cmake-build-debug\\CMakeFiles\progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start E:\programming\scratch-app-Sharif\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\zc\CLionProjects\test12\cmake-build-debug\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -128,198 +128,6 @@ Scratch_G36/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Scratch_G36.dir\build.make CMakeFiles/Scratch_G36.dir/build
 .PHONY : Scratch_G36/fast
 
-scripts/CodePanel/CodePanel.obj: scripts/CodePanel/CodePanel.cpp.obj
-.PHONY : scripts/CodePanel/CodePanel.obj
-
-# target to build an object file
-scripts/CodePanel/CodePanel.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Scratch_G36.dir\build.make CMakeFiles/Scratch_G36.dir/scripts/CodePanel/CodePanel.cpp.obj
-.PHONY : scripts/CodePanel/CodePanel.cpp.obj
-
-scripts/CodePanel/CodePanel.i: scripts/CodePanel/CodePanel.cpp.i
-.PHONY : scripts/CodePanel/CodePanel.i
-
-# target to preprocess a source file
-scripts/CodePanel/CodePanel.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Scratch_G36.dir\build.make CMakeFiles/Scratch_G36.dir/scripts/CodePanel/CodePanel.cpp.i
-.PHONY : scripts/CodePanel/CodePanel.cpp.i
-
-scripts/CodePanel/CodePanel.s: scripts/CodePanel/CodePanel.cpp.s
-.PHONY : scripts/CodePanel/CodePanel.s
-
-# target to generate assembly for a file
-scripts/CodePanel/CodePanel.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Scratch_G36.dir\build.make CMakeFiles/Scratch_G36.dir/scripts/CodePanel/CodePanel.cpp.s
-.PHONY : scripts/CodePanel/CodePanel.cpp.s
-
-scripts/CostumesPanel/CostumesPanel.obj: scripts/CostumesPanel/CostumesPanel.cpp.obj
-.PHONY : scripts/CostumesPanel/CostumesPanel.obj
-
-# target to build an object file
-scripts/CostumesPanel/CostumesPanel.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Scratch_G36.dir\build.make CMakeFiles/Scratch_G36.dir/scripts/CostumesPanel/CostumesPanel.cpp.obj
-.PHONY : scripts/CostumesPanel/CostumesPanel.cpp.obj
-
-scripts/CostumesPanel/CostumesPanel.i: scripts/CostumesPanel/CostumesPanel.cpp.i
-.PHONY : scripts/CostumesPanel/CostumesPanel.i
-
-# target to preprocess a source file
-scripts/CostumesPanel/CostumesPanel.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Scratch_G36.dir\build.make CMakeFiles/Scratch_G36.dir/scripts/CostumesPanel/CostumesPanel.cpp.i
-.PHONY : scripts/CostumesPanel/CostumesPanel.cpp.i
-
-scripts/CostumesPanel/CostumesPanel.s: scripts/CostumesPanel/CostumesPanel.cpp.s
-.PHONY : scripts/CostumesPanel/CostumesPanel.s
-
-# target to generate assembly for a file
-scripts/CostumesPanel/CostumesPanel.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Scratch_G36.dir\build.make CMakeFiles/Scratch_G36.dir/scripts/CostumesPanel/CostumesPanel.cpp.s
-.PHONY : scripts/CostumesPanel/CostumesPanel.cpp.s
-
-scripts/LeftPannel/ModeSelector/ModeSelector.obj: scripts/LeftPannel/ModeSelector/ModeSelector.cpp.obj
-.PHONY : scripts/LeftPannel/ModeSelector/ModeSelector.obj
-
-# target to build an object file
-scripts/LeftPannel/ModeSelector/ModeSelector.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Scratch_G36.dir\build.make CMakeFiles/Scratch_G36.dir/scripts/LeftPannel/ModeSelector/ModeSelector.cpp.obj
-.PHONY : scripts/LeftPannel/ModeSelector/ModeSelector.cpp.obj
-
-scripts/LeftPannel/ModeSelector/ModeSelector.i: scripts/LeftPannel/ModeSelector/ModeSelector.cpp.i
-.PHONY : scripts/LeftPannel/ModeSelector/ModeSelector.i
-
-# target to preprocess a source file
-scripts/LeftPannel/ModeSelector/ModeSelector.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Scratch_G36.dir\build.make CMakeFiles/Scratch_G36.dir/scripts/LeftPannel/ModeSelector/ModeSelector.cpp.i
-.PHONY : scripts/LeftPannel/ModeSelector/ModeSelector.cpp.i
-
-scripts/LeftPannel/ModeSelector/ModeSelector.s: scripts/LeftPannel/ModeSelector/ModeSelector.cpp.s
-.PHONY : scripts/LeftPannel/ModeSelector/ModeSelector.s
-
-# target to generate assembly for a file
-scripts/LeftPannel/ModeSelector/ModeSelector.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Scratch_G36.dir\build.make CMakeFiles/Scratch_G36.dir/scripts/LeftPannel/ModeSelector/ModeSelector.cpp.s
-.PHONY : scripts/LeftPannel/ModeSelector/ModeSelector.cpp.s
-
-scripts/Menu/menu.obj: scripts/Menu/menu.cpp.obj
-.PHONY : scripts/Menu/menu.obj
-
-# target to build an object file
-scripts/Menu/menu.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Scratch_G36.dir\build.make CMakeFiles/Scratch_G36.dir/scripts/Menu/menu.cpp.obj
-.PHONY : scripts/Menu/menu.cpp.obj
-
-scripts/Menu/menu.i: scripts/Menu/menu.cpp.i
-.PHONY : scripts/Menu/menu.i
-
-# target to preprocess a source file
-scripts/Menu/menu.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Scratch_G36.dir\build.make CMakeFiles/Scratch_G36.dir/scripts/Menu/menu.cpp.i
-.PHONY : scripts/Menu/menu.cpp.i
-
-scripts/Menu/menu.s: scripts/Menu/menu.cpp.s
-.PHONY : scripts/Menu/menu.s
-
-# target to generate assembly for a file
-scripts/Menu/menu.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Scratch_G36.dir\build.make CMakeFiles/Scratch_G36.dir/scripts/Menu/menu.cpp.s
-.PHONY : scripts/Menu/menu.cpp.s
-
-scripts/SpiritFunctions/spiritFunctions.obj: scripts/SpiritFunctions/spiritFunctions.cpp.obj
-.PHONY : scripts/SpiritFunctions/spiritFunctions.obj
-
-# target to build an object file
-scripts/SpiritFunctions/spiritFunctions.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Scratch_G36.dir\build.make CMakeFiles/Scratch_G36.dir/scripts/SpiritFunctions/spiritFunctions.cpp.obj
-.PHONY : scripts/SpiritFunctions/spiritFunctions.cpp.obj
-
-scripts/SpiritFunctions/spiritFunctions.i: scripts/SpiritFunctions/spiritFunctions.cpp.i
-.PHONY : scripts/SpiritFunctions/spiritFunctions.i
-
-# target to preprocess a source file
-scripts/SpiritFunctions/spiritFunctions.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Scratch_G36.dir\build.make CMakeFiles/Scratch_G36.dir/scripts/SpiritFunctions/spiritFunctions.cpp.i
-.PHONY : scripts/SpiritFunctions/spiritFunctions.cpp.i
-
-scripts/SpiritFunctions/spiritFunctions.s: scripts/SpiritFunctions/spiritFunctions.cpp.s
-.PHONY : scripts/SpiritFunctions/spiritFunctions.s
-
-# target to generate assembly for a file
-scripts/SpiritFunctions/spiritFunctions.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Scratch_G36.dir\build.make CMakeFiles/Scratch_G36.dir/scripts/SpiritFunctions/spiritFunctions.cpp.s
-.PHONY : scripts/SpiritFunctions/spiritFunctions.cpp.s
-
-scripts/SpiritPreview/spiritPreview.obj: scripts/SpiritPreview/spiritPreview.cpp.obj
-.PHONY : scripts/SpiritPreview/spiritPreview.obj
-
-# target to build an object file
-scripts/SpiritPreview/spiritPreview.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Scratch_G36.dir\build.make CMakeFiles/Scratch_G36.dir/scripts/SpiritPreview/spiritPreview.cpp.obj
-.PHONY : scripts/SpiritPreview/spiritPreview.cpp.obj
-
-scripts/SpiritPreview/spiritPreview.i: scripts/SpiritPreview/spiritPreview.cpp.i
-.PHONY : scripts/SpiritPreview/spiritPreview.i
-
-# target to preprocess a source file
-scripts/SpiritPreview/spiritPreview.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Scratch_G36.dir\build.make CMakeFiles/Scratch_G36.dir/scripts/SpiritPreview/spiritPreview.cpp.i
-.PHONY : scripts/SpiritPreview/spiritPreview.cpp.i
-
-scripts/SpiritPreview/spiritPreview.s: scripts/SpiritPreview/spiritPreview.cpp.s
-.PHONY : scripts/SpiritPreview/spiritPreview.s
-
-# target to generate assembly for a file
-scripts/SpiritPreview/spiritPreview.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Scratch_G36.dir\build.make CMakeFiles/Scratch_G36.dir/scripts/SpiritPreview/spiritPreview.cpp.s
-.PHONY : scripts/SpiritPreview/spiritPreview.cpp.s
-
-scripts/Ui/uiFuncs.obj: scripts/Ui/uiFuncs.cpp.obj
-.PHONY : scripts/Ui/uiFuncs.obj
-
-# target to build an object file
-scripts/Ui/uiFuncs.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Scratch_G36.dir\build.make CMakeFiles/Scratch_G36.dir/scripts/Ui/uiFuncs.cpp.obj
-.PHONY : scripts/Ui/uiFuncs.cpp.obj
-
-scripts/Ui/uiFuncs.i: scripts/Ui/uiFuncs.cpp.i
-.PHONY : scripts/Ui/uiFuncs.i
-
-# target to preprocess a source file
-scripts/Ui/uiFuncs.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Scratch_G36.dir\build.make CMakeFiles/Scratch_G36.dir/scripts/Ui/uiFuncs.cpp.i
-.PHONY : scripts/Ui/uiFuncs.cpp.i
-
-scripts/Ui/uiFuncs.s: scripts/Ui/uiFuncs.cpp.s
-.PHONY : scripts/Ui/uiFuncs.s
-
-# target to generate assembly for a file
-scripts/Ui/uiFuncs.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Scratch_G36.dir\build.make CMakeFiles/Scratch_G36.dir/scripts/Ui/uiFuncs.cpp.s
-.PHONY : scripts/Ui/uiFuncs.cpp.s
-
-scripts/common/common.obj: scripts/common/common.cpp.obj
-.PHONY : scripts/common/common.obj
-
-# target to build an object file
-scripts/common/common.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Scratch_G36.dir\build.make CMakeFiles/Scratch_G36.dir/scripts/common/common.cpp.obj
-.PHONY : scripts/common/common.cpp.obj
-
-scripts/common/common.i: scripts/common/common.cpp.i
-.PHONY : scripts/common/common.i
-
-# target to preprocess a source file
-scripts/common/common.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Scratch_G36.dir\build.make CMakeFiles/Scratch_G36.dir/scripts/common/common.cpp.i
-.PHONY : scripts/common/common.cpp.i
-
-scripts/common/common.s: scripts/common/common.cpp.s
-.PHONY : scripts/common/common.s
-
-# target to generate assembly for a file
-scripts/common/common.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Scratch_G36.dir\build.make CMakeFiles/Scratch_G36.dir/scripts/common/common.cpp.s
-.PHONY : scripts/common/common.cpp.s
-
 scripts/main.obj: scripts/main.cpp.obj
 .PHONY : scripts/main.obj
 
@@ -353,30 +161,6 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... Scratch_G36
-	@echo ... scripts/CodePanel/CodePanel.obj
-	@echo ... scripts/CodePanel/CodePanel.i
-	@echo ... scripts/CodePanel/CodePanel.s
-	@echo ... scripts/CostumesPanel/CostumesPanel.obj
-	@echo ... scripts/CostumesPanel/CostumesPanel.i
-	@echo ... scripts/CostumesPanel/CostumesPanel.s
-	@echo ... scripts/LeftPannel/ModeSelector/ModeSelector.obj
-	@echo ... scripts/LeftPannel/ModeSelector/ModeSelector.i
-	@echo ... scripts/LeftPannel/ModeSelector/ModeSelector.s
-	@echo ... scripts/Menu/menu.obj
-	@echo ... scripts/Menu/menu.i
-	@echo ... scripts/Menu/menu.s
-	@echo ... scripts/SpiritFunctions/spiritFunctions.obj
-	@echo ... scripts/SpiritFunctions/spiritFunctions.i
-	@echo ... scripts/SpiritFunctions/spiritFunctions.s
-	@echo ... scripts/SpiritPreview/spiritPreview.obj
-	@echo ... scripts/SpiritPreview/spiritPreview.i
-	@echo ... scripts/SpiritPreview/spiritPreview.s
-	@echo ... scripts/Ui/uiFuncs.obj
-	@echo ... scripts/Ui/uiFuncs.i
-	@echo ... scripts/Ui/uiFuncs.s
-	@echo ... scripts/common/common.obj
-	@echo ... scripts/common/common.i
-	@echo ... scripts/common/common.s
 	@echo ... scripts/main.obj
 	@echo ... scripts/main.i
 	@echo ... scripts/main.s

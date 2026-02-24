@@ -1,5 +1,5 @@
 ToolSet: 3.20 (local)@C:\MinGW
-Ninja: 1.12.1@C:\Program Files\JetBrains\CLion 2025.2.5\bin\ninja\win\x64\ninja.exe
+Ninja: 1.12.1@C:\Users\zc\AppData\Local\Programs\CLion 2025.2\bin\ninja\win\x64\ninja.exe
 Options: 
 
 Options:
