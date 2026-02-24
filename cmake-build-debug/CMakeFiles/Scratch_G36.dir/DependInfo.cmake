@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "C:/Users/zc/CLionProjects/test12/scripts/main.cpp" "CMakeFiles/Scratch_G36.dir/scripts/main.cpp.obj" "gcc" "CMakeFiles/Scratch_G36.dir/scripts/main.cpp.obj.d"
+  "E:/programming/scratch-app-Sharif-34/scripts/main.cpp" "CMakeFiles/Scratch_G36.dir/scripts/main.cpp.obj" "gcc" "CMakeFiles/Scratch_G36.dir/scripts/main.cpp.obj.d"
   )
 
 # Targets to which this target links which contain Fortran sources.
